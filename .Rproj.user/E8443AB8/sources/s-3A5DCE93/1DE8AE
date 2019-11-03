@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1572807753826.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1DE8AE",
+    "lastKnownWriteTime" : 1572811619,
+    "last_content_update" : 1572811619495,
+    "path" : "~/Dokumente/03_Projekte/Statistik und Software/1911103_public_health_mapping/public_health_mapping.R",
+    "project_path" : "public_health_mapping.R",
+    "properties" : {
+        "cursorPosition" : "16,30",
+        "scrollLine" : "0",
+        "tempName" : "Untitled1"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
