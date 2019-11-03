@@ -1,0 +1,55 @@
+---
+title: "Karte von public health Einrichtungen in Deutschland"
+author: "Jakob Schumacher (Technik)"
+date: 2019-11-03
+categories: ["Map"]
+tags: ["R Markdown", "plot", "regression"]
+---
+
+```{r setup, include=FALSE}
+
+library(tidyverse)
+library(ggmap)
+library(blogdown)
+library(here)
+library(htmlwidgets)
+library(DT)
+library(leaflet)
+setwd(here())
+
+# data <- read.csv("Public_Health_Player_Germany - Tabellenblatt1.csv")
+# 
+# 
+# df <- data %>% 
+#   mutate(Name = as.character(Name)) %>% 
+#   filter(Typ == "Ministerium" |
+#            Typ == "Verwaltung" |
+#            Typ == "Zivilschutz" |
+#            Typ == "Wissenschaft" |
+#            Typ == "Universität") 
+# 
+# 
+# testdf <- geocode(df$Name)
+# 
+# df2 <- cbind(df, testdf)
+# 
+# df2 <- df2 %>% 
+#   select(Name, Abkürzung, Typ, Abteilung, Link, lon, lat) 
+#   
+#   
+# df2 <- df2 %>% 
+#   filter(lon > 0)
+# 
+
+df2 <- read.csv(file = "intermediatedata.csv")
+```
+
+
+# Karte 
+
+```{r karte, echo=FALSE}
+factpal <- colorFactor(topo.colors(5), df2$Typ)
+leaflet() %>% 
+  addTiles() %>%
+  addCircleMarkers(lng = df2$lon, lat = df2$lat, popup = df2$Name)
+```
