@@ -1,4 +1,4 @@
-baseurl = "public-health-map-germany/"
+baseurl = "https://jakobschumacher.github.io/public-health-map-germany/"
 languageCode = "de"
 title = "Public health in Germany"
 theme = "hugo-lithium"
