@@ -1,11 +1,9 @@
-source 'https://rubygems.org'
 
-gem 'jekyll', '3.1.6'
+baseurl: "/public-health-map-germany"
 
-group :jekyll_plugins do
-  gem 'jekyll-feed'
-  gem 'jekyll-seo-tag'
-end
+title: Public health map
+author: Jakob Schumacher
+email: jakob.schumacher@web.de
+description: > # this means to ignore newlines until "show_exerpts:"
+  Eine Karte von Public Health Playern in Germany
 
-
-baseurl: /public-health-map-germany
