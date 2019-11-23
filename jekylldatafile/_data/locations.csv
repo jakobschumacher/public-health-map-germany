@@ -1,7 +1,46 @@
-latitude,longitude,name
--45.878760,170.502798,Dunedin Outlet
--41.286460,174.776236,Wellington Outlet
--46.098799,168.945819,Gore Outlet
--46.413187,168.353773,Invercargill Outlet
--35.117330,173.267559,Kaitai Outlet
--45.067944,168.662109,Queenstown Outlet
+longitude,latitude,name,type,url
+13.398788,52.5151264,Auswärtiges Amt,Ministerium,https://www.auswaertiges-amt.de/de
+7.0622326,50.7186261,Bundesministerium für Gesundheit,Ministerium,https://www.bundesgesundheitsministerium.de/
+8.0447914,52.2711024,Universität Osnabrück,Universität,https://www.igb.uni-osnabrueck.de/startseite/institut_fuer_gesundheisforschung_und_bildung.html
+8.4952413,52.0367238,Universität Bielefeld,Universität,
+8.85204,53.106758,Universität Bremen,Universität,
+6.82249,51.26312,Akademie für öffentliches Gesundheitswesen Düsseldorf,Universität,
+13.3842201,52.51256,Bundesministerium der Arbeit und Soziales,Ministerium,http://www.bmas.de
+13.36342,52.52263,Bundesministerium des Inneren ,Ministerium,http://www.bmi.bund.de
+13.3824188,52.5137697,Bundesministerium für Ernährung und Landwirtschaft,Ministerium,https://www.bmel.de
+13.3868576,52.5132754,"Bundesministerium für Familie, Senioren, Frauen und Jugend",Ministerium,www.bmfsfj.de
+13.3950971,52.5122858,Bundesministerium für Justiz und Verbraucherschutz,Ministerium,https://www.bmjv.de
+7.1384983,50.7063931,"Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit (BMUB)",Ministerium,www.bmub.bund.de
+11.6571059,52.1302321,"Ministerium für Arbeit, Soziales und Integration des Landes Sachsen-Anhalt",Ministerium,ms.sachsen-anhalt.de
+13.0529571,52.3939426,"Ministerium für Arbeit, Soziales, Gesundheit und Frauen des Landes Brandenburg",Ministerium,http://www.masgf.brandenburg.de
+6.7680157,51.2198665,"Ministerium für Gesundheit, Emanzipation, Pflege und Alter des Landes Nordrhein-Westfalen",Ministerium,www.mgepa.nrw.de
+9.1816065,48.7755018,Ministerium für Soziales und Integration des Landes Baden-Württemberg,Ministerium,http://sozialministerium.baden-wuerttemberg.de
+8.2669058,50.0045483,"Ministerium für Soziales, Arbeit, Gesundheit und Demografie des Landes Rheinland-Pfalz",Ministerium,msagd.rlp.de
+6.9998753,49.2274117,"Ministerium für Soziales, Gesundheit, Frauen und Familie, Saarland",Ministerium,www.saarland.de/ministerium_soziales_gesundheit_frauen_familie.htm
+10.13307,54.3082,"Ministerium für Soziales, Gesundheit, Wissenschaft und Gleichstellung des Landes Schleswig-Holstein",Ministerium,http://www.schleswig-holstein.de/DE/Landesregierung/VIII/viii_node.html
+11.41706,53.61451,"Ministerium für Wirtschaft, Arbeit und Gesundheit des Landes Mecklenburg-Vorpommern",Ministerium,http://www.regierung-mv.de/Landesregierung/wm/
+9.73451,52.37111,"Niedersächsisches Ministerium für Soziales, Gesundheit und Gleichstellung",Ministerium,http://www.ms.niedersachsen.de
+13.7465699,51.05918,Sächsisches Staatsministerium für Soziales und Verbraucherschutz,Ministerium,http://www.sms.sachsen.de/
+11.0411823,50.9564439,"Thüringer Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie",Ministerium,http://www.thueringen.de/th7/tmasgff/
+7.0915838,50.7528595,Statistisches Bundesamt,Verwaltung,www.destatis.de
+7.1365454,50.7057961,Bundesamt für Arzneimittelsicherheit und Medizinprodukte,Verwaltung,http://www.bfarm.de/DE/Home/home_node.html
+7.0684762,50.7149836,Bundesamt für Bevölkerungsschutz und Katastrophenhilfe,Verwaltung,http://www.bbk.bund.de/DE/Home/home_node.html
+13.2971361,52.5309306,Bundesamt für Risikobewertung,Verwaltung,
+7.4172529,51.4981037,Bundesanstalt für Arbeitsschutz und Arbeitsmedizin,Verwaltung,https://www.baua.de/DE/Home/Home_node.html
+12.2392723,51.8423204,Umweltbundesamt,Verwaltung,http://www.umweltbundesamt.de/
+13.3116049,52.4889823,Veterinäramt Charlottenburg-Wilmersdorf,Verwaltung,https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/ordnungsamt/veterinaer-und-lebensmittelaufsicht/
+9.931946,51.5400635,Institut für angewandte Qualitätsförderung und Forschung im Gesundheitswesen,Wissenschaft,https://www.aqua-institut.de/ueber-uns/
+13.3942386,52.51398,Einstein Stiftung Berlin,Wissenschaft,http://www.einsteinfoundation.de/
+13.4018457,52.5206019,Berliner Institut für Gesundheitsforschung,Wissenschaft,www.bihealth.org
+13.10534,52.34842,Deutsches Institut für Ernährungsforschung,Wissenschaft,http://www.dife.de/
+8.6729607,49.414414,Deutsches Krebsforschungszentrum,Wissenschaft,https://www.dkfz.de/de/dkfz/struktur/organigramm.html
+10.53122,52.21122,Deutsches Zentrum für Infektionsforschung,Wissenschaft,https://www.virologie.med.tum.de/dzif-deutsches-zentrum-fuer-infektionsforschung/
+7.1477975,50.6993388,Deutsche Forschungsgemeinschaft,Wissenschaft,http://www.dfg.de
+13.36358,54.18286,Friedrich-Löffler-Institut,Wissenschaft,https://www.fli.de/de/kontakt/
+11.589606,48.222473,Helmholtz Zentrum München,Wissenschaft,https://www.helmholtz-muenchen.de/
+10.5314925,52.2109803,Helmholz-Zentrum für Infektionsforschung,Wissenschaft,https://www.helmholtz-hzi.de/de/service/kontakt/?no_cache=1
+11.963382,51.487432,Leopoldina,Wissenschaft,www.leopoldina.org
+6.9193176,50.9252943,Max-Planck-Gesellschaft,Wissenschaft,https://www.mpg.de/de
+8.4262698,49.0135536,Max-Rubner-Institut,Wissenschaft,www.mri.bund.de
+8.6499482,50.0054894,Paul-Ehrlich-Institut (PEI),Wissenschaft,http://www.pei.de/DE/home/de-node.html
+7.2280345,53.6026072,Technisches Hilfswerk,Zivilschutz,
