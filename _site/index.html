@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Contact</title>
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav class="main-nav">
+					<ul>
+						<li><a href="/">Map</a></li>
+						<li><a href="/table.html">Table</a></li>
+						<li><a href="/about.html">About</a></li>
+					</ul>
+				</nav>
+				<h1><a href="/">Public health <strong>map</strong></a></h1>
+			</div>
+		</header>
+		<div class="content">
+			<div id="map-canvas" style="width:100%; height: 650px"></div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUuqu8LzAayfTUF8RQZcBeJxR-Stv4VBs&callback=initMap" async defer></script>
+
+
+<script>
+	var markers = [{"longitude":"13.398788","latitude":"52.5151264","name":"Auswärtiges Amt","type":"Ministerium","url":"https://www.auswaertiges-amt.de/de"},{"longitude":"7.0622326","latitude":"50.7186261","name":"Bundesministerium für Gesundheit","type":"Ministerium","url":"https://www.bundesgesundheitsministerium.de/"},{"longitude":"8.0447914","latitude":"52.2711024","name":"Universität Osnabrück","type":"Universität","url":"https://www.igb.uni-osnabrueck.de/startseite/institut_fuer_gesundheisforschung_und_bildung.html"},{"longitude":"8.4952413","latitude":"52.0367238","name":"Universität Bielefeld","type":"Universität","url":null},{"longitude":"8.85204","latitude":"53.106758","name":"Universität Bremen","type":"Universität","url":null},{"longitude":"6.82249","latitude":"51.26312","name":"Akademie für öffentliches Gesundheitswesen Düsseldorf","type":"Universität","url":null},{"longitude":"13.3842201","latitude":"52.51256","name":"Bundesministerium der Arbeit und Soziales","type":"Ministerium","url":"http://www.bmas.de"},{"longitude":"13.36342","latitude":"52.52263","name":"Bundesministerium des Inneren ","type":"Ministerium","url":"http://www.bmi.bund.de"},{"longitude":"13.3824188","latitude":"52.5137697","name":"Bundesministerium für Ernährung und Landwirtschaft","type":"Ministerium","url":"https://www.bmel.de"},{"longitude":"13.3868576","latitude":"52.5132754","name":"Bundesministerium für Familie, Senioren, Frauen und Jugend","type":"Ministerium","url":"www.bmfsfj.de"},{"longitude":"13.3950971","latitude":"52.5122858","name":"Bundesministerium für Justiz und Verbraucherschutz","type":"Ministerium","url":"https://www.bmjv.de"},{"longitude":"7.1384983","latitude":"50.7063931","name":"Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit (BMUB)","type":"Ministerium","url":"www.bmub.bund.de"},{"longitude":"11.6571059","latitude":"52.1302321","name":"Ministerium für Arbeit, Soziales und Integration des Landes Sachsen-Anhalt","type":"Ministerium","url":"ms.sachsen-anhalt.de"},{"longitude":"13.0529571","latitude":"52.3939426","name":"Ministerium für Arbeit, Soziales, Gesundheit und Frauen des Landes Brandenburg","type":"Ministerium","url":"http://www.masgf.brandenburg.de"},{"longitude":"6.7680157","latitude":"51.2198665","name":"Ministerium für Gesundheit, Emanzipation, Pflege und Alter des Landes Nordrhein-Westfalen","type":"Ministerium","url":"www.mgepa.nrw.de"},{"longitude":"9.1816065","latitude":"48.7755018","name":"Ministerium für Soziales und Integration des Landes Baden-Württemberg","type":"Ministerium","url":"http://sozialministerium.baden-wuerttemberg.de"},{"longitude":"8.2669058","latitude":"50.0045483","name":"Ministerium für Soziales, Arbeit, Gesundheit und Demografie des Landes Rheinland-Pfalz","type":"Ministerium","url":"msagd.rlp.de"},{"longitude":"6.9998753","latitude":"49.2274117","name":"Ministerium für Soziales, Gesundheit, Frauen und Familie, Saarland","type":"Ministerium","url":"www.saarland.de/ministerium_soziales_gesundheit_frauen_familie.htm"},{"longitude":"10.13307","latitude":"54.3082","name":"Ministerium für Soziales, Gesundheit, Wissenschaft und Gleichstellung des Landes Schleswig-Holstein","type":"Ministerium","url":"http://www.schleswig-holstein.de/DE/Landesregierung/VIII/viii_node.html"},{"longitude":"11.41706","latitude":"53.61451","name":"Ministerium für Wirtschaft, Arbeit und Gesundheit des Landes Mecklenburg-Vorpommern","type":"Ministerium","url":"http://www.regierung-mv.de/Landesregierung/wm/"},{"longitude":"9.73451","latitude":"52.37111","name":"Niedersächsisches Ministerium für Soziales, Gesundheit und Gleichstellung","type":"Ministerium","url":"http://www.ms.niedersachsen.de"},{"longitude":"13.7465699","latitude":"51.05918","name":"Sächsisches Staatsministerium für Soziales und Verbraucherschutz","type":"Ministerium","url":"http://www.sms.sachsen.de/"},{"longitude":"11.0411823","latitude":"50.9564439","name":"Thüringer Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie","type":"Ministerium","url":"http://www.thueringen.de/th7/tmasgff/"},{"longitude":"7.0915838","latitude":"50.7528595","name":"Statistisches Bundesamt","type":"Verwaltung","url":"www.destatis.de"},{"longitude":"7.1365454","latitude":"50.7057961","name":"Bundesamt für Arzneimittelsicherheit und Medizinprodukte","type":"Verwaltung","url":"http://www.bfarm.de/DE/Home/home_node.html"},{"longitude":"7.0684762","latitude":"50.7149836","name":"Bundesamt für Bevölkerungsschutz und Katastrophenhilfe","type":"Verwaltung","url":"http://www.bbk.bund.de/DE/Home/home_node.html"},{"longitude":"13.2971361","latitude":"52.5309306","name":"Bundesamt für Risikobewertung","type":"Verwaltung","url":null},{"longitude":"7.4172529","latitude":"51.4981037","name":"Bundesanstalt für Arbeitsschutz und Arbeitsmedizin","type":"Verwaltung","url":"https://www.baua.de/DE/Home/Home_node.html"},{"longitude":"12.2392723","latitude":"51.8423204","name":"Umweltbundesamt","type":"Verwaltung","url":"http://www.umweltbundesamt.de/"},{"longitude":"13.3116049","latitude":"52.4889823","name":"Veterinäramt Charlottenburg-Wilmersdorf","type":"Verwaltung","url":"https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/ordnungsamt/veterinaer-und-lebensmittelaufsicht/"},{"longitude":"9.931946","latitude":"51.5400635","name":"Institut für angewandte Qualitätsförderung und Forschung im Gesundheitswesen","type":"Wissenschaft","url":"https://www.aqua-institut.de/ueber-uns/"},{"longitude":"13.3942386","latitude":"52.51398","name":"Einstein Stiftung Berlin","type":"Wissenschaft","url":"http://www.einsteinfoundation.de/"},{"longitude":"13.4018457","latitude":"52.5206019","name":"Berliner Institut für Gesundheitsforschung","type":"Wissenschaft","url":"www.bihealth.org"},{"longitude":"13.10534","latitude":"52.34842","name":"Deutsches Institut für Ernährungsforschung","type":"Wissenschaft","url":"http://www.dife.de/"},{"longitude":"8.6729607","latitude":"49.414414","name":"Deutsches Krebsforschungszentrum","type":"Wissenschaft","url":"https://www.dkfz.de/de/dkfz/struktur/organigramm.html"},{"longitude":"10.53122","latitude":"52.21122","name":"Deutsches Zentrum für Infektionsforschung","type":"Wissenschaft","url":"https://www.virologie.med.tum.de/dzif-deutsches-zentrum-fuer-infektionsforschung/"},{"longitude":"7.1477975","latitude":"50.6993388","name":"Deutsche Forschungsgemeinschaft","type":"Wissenschaft","url":"http://www.dfg.de"},{"longitude":"13.36358","latitude":"54.18286","name":"Friedrich-Löffler-Institut","type":"Wissenschaft","url":"https://www.fli.de/de/kontakt/"},{"longitude":"11.589606","latitude":"48.222473","name":"Helmholtz Zentrum München","type":"Wissenschaft","url":"https://www.helmholtz-muenchen.de/"},{"longitude":"10.5314925","latitude":"52.2109803","name":"Helmholz-Zentrum für Infektionsforschung","type":"Wissenschaft","url":"https://www.helmholtz-hzi.de/de/service/kontakt/?no_cache=1"},{"longitude":"11.963382","latitude":"51.487432","name":"Leopoldina","type":"Wissenschaft","url":"www.leopoldina.org"},{"longitude":"6.9193176","latitude":"50.9252943","name":"Max-Planck-Gesellschaft","type":"Wissenschaft","url":"https://www.mpg.de/de"},{"longitude":"8.4262698","latitude":"49.0135536","name":"Max-Rubner-Institut","type":"Wissenschaft","url":"www.mri.bund.de"},{"longitude":"8.6499482","latitude":"50.0054894","name":"Paul-Ehrlich-Institut (PEI)","type":"Wissenschaft","url":"http://www.pei.de/DE/home/de-node.html"},{"longitude":"7.2280345","latitude":"53.6026072","name":"Technisches Hilfswerk","type":"Zivilschutz","url":null}];
+
+	function initializeMap() {
+		var bounds = new google.maps.LatLngBounds(),
+			mapOptions = {
+				mapTypeId: 'roadmap',
+				styles: [{"featureType":"water","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#aee2e0"}]},{"featureType":"landscape","elementType":"geometry.fill","stylers":[{"color":"#abce83"}]},{"featureType":"poi","elementType":"geometry.fill","stylers":[{"color":"#769E72"}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"color":"#7B8758"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"color":"#EBF4A4"}]},{"featureType":"poi.park","elementType":"geometry","stylers":[{"visibility":"simplified"},{"color":"#8dab68"}]},{"featureType":"road","elementType":"geometry.fill","stylers":[{"visibility":"simplified"}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"color":"#5B5B3F"}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"color":"#ABCE83"}]},{"featureType":"road","elementType":"labels.icon","stylers":[{"visibility":"off"}]},{"featureType":"road.local","elementType":"geometry","stylers":[{"color":"#A4C67D"}]},{"featureType":"road.arterial","elementType":"geometry","stylers":[{"color":"#9BBF72"}]},{"featureType":"road.highway","elementType":"geometry","stylers":[{"color":"#EBF4A4"}]},{"featureType":"transit","stylers":[{"visibility":"off"}]},{"featureType":"administrative","elementType":"geometry.stroke","stylers":[{"visibility":"on"},{"color":"#87ae79"}]},{"featureType":"administrative","elementType":"geometry.fill","stylers":[{"color":"#7f2200"},{"visibility":"off"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"visibility":"on"},{"weight":4.1}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#495421"}]},{"featureType":"administrative.neighborhood","elementType":"labels","stylers":[{"visibility":"off"}]}]
+			};
+
+		// Display a map on the page
+		var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
+		map.setTilt(45);
+
+		for (var i = 0; i < markers.length; i++ ) {
+			var position = new google.maps.LatLng(markers[i].latitude, markers[i].longitude);
+			bounds.extend(position);
+			marker = new google.maps.Marker({
+				position: position,
+				map: map,
+				title: markers[i].name
+			});
+
+			// Automatically center the map fitting all markers on the screen
+			map.fitBounds(bounds);
+		}
+
+		// Override our map zoom level once our fitBounds function runs (Make sure it only runs once)
+		var boundsListener = google.maps.event.addListener((map), 'bounds_changed', function(event) {
+			this.setZoom(5);
+			google.maps.event.removeListener(boundsListener);
+		});
+	}
+
+	google.maps.event.addDomListener(window, 'load', initializeMap);
+</script>
+
+		</div>
+	</body>
+</html>

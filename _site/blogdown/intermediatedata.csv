@@ -1,0 +1,46 @@
+"","Name","Abkürzung","Typ","Abteilung","Link","lon","lat"
+"1","Auswärtiges Amt","AA","Ministerium","","https://www.auswaertiges-amt.de/de",13.398788,52.5151264
+"2","Bundesministerium für Gesundheit","BMG","Ministerium","Globale Gesundheit","https://www.bundesgesundheitsministerium.de/",7.0622326,50.7186261
+"3","Universität Osnabrück","","Universität","New Public Health","https://www.igb.uni-osnabrueck.de/startseite/institut_fuer_gesundheisforschung_und_bildung.html",8.0447914,52.2711024
+"4","Universität Bielefeld","","Universität","","",8.4952413,52.0367238
+"5","Universität Bremen","","Universität","","",8.85204,53.106758
+"6","Akademie für öffentliches Gesundheitswesen Düsseldorf","","Universität","","",6.82249,51.26312
+"7","Bundesministerium der Arbeit und Soziales","BMAS","Ministerium","","http://www.bmas.de",13.3842201,52.51256
+"8","Bundesministerium des Inneren ","BMI","Ministerium","","http://www.bmi.bund.de",13.36342,52.52263
+"9","Bundesministerium für Ernährung und Landwirtschaft","BMEL","Ministerium","","https://www.bmel.de",13.3824188,52.5137697
+"10","Bundesministerium für Familie, Senioren, Frauen und Jugend","BMFSJ","Ministerium","","www.bmfsfj.de",13.3868576,52.5132754
+"11","Bundesministerium für Justiz und Verbraucherschutz","BMJV","Ministerium","","https://www.bmjv.de",13.3950971,52.5122858
+"12","Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit (BMUB)","","Ministerium","","www.bmub.bund.de",7.1384983,50.7063931
+"13","Ministerium für Arbeit, Soziales und Integration des Landes Sachsen-Anhalt","","Ministerium","","ms.sachsen-anhalt.de",11.6571059,52.1302321
+"14","Ministerium für Arbeit, Soziales, Gesundheit und Frauen des Landes Brandenburg","","Ministerium","","http://www.masgf.brandenburg.de",13.0529571,52.3939426
+"15","Ministerium für Gesundheit, Emanzipation, Pflege und Alter des Landes Nordrhein-Westfalen","","Ministerium","","www.mgepa.nrw.de",6.7680157,51.2198665
+"16","Ministerium für Soziales und Integration des Landes Baden-Württemberg","","Ministerium","","http://sozialministerium.baden-wuerttemberg.de",9.1816065,48.7755018
+"17","Ministerium für Soziales, Arbeit, Gesundheit und Demografie des Landes Rheinland-Pfalz","","Ministerium","","msagd.rlp.de",8.2669058,50.0045483
+"18","Ministerium für Soziales, Gesundheit, Frauen und Familie, Saarland","","Ministerium","","www.saarland.de/ministerium_soziales_gesundheit_frauen_familie.htm",6.9998753,49.2274117
+"19","Ministerium für Soziales, Gesundheit, Wissenschaft und Gleichstellung des Landes Schleswig-Holstein","","Ministerium","","http://www.schleswig-holstein.de/DE/Landesregierung/VIII/viii_node.html",10.13307,54.3082
+"20","Ministerium für Wirtschaft, Arbeit und Gesundheit des Landes Mecklenburg-Vorpommern","","Ministerium","","http://www.regierung-mv.de/Landesregierung/wm/",11.41706,53.61451
+"21","Niedersächsisches Ministerium für Soziales, Gesundheit und Gleichstellung","","Ministerium","","http://www.ms.niedersachsen.de",9.73451,52.37111
+"22","Sächsisches Staatsministerium für Soziales und Verbraucherschutz","","Ministerium","","http://www.sms.sachsen.de/",13.7465699,51.05918
+"23","Thüringer Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie","","Ministerium","","http://www.thueringen.de/th7/tmasgff/",11.0411823,50.9564439
+"24","Statistisches Bundesamt","","Verwaltung","","www.destatis.de",7.0915838,50.7528595
+"25","Bundesamt für Arzneimittelsicherheit und Medizinprodukte","BfArM","Verwaltung","","http://www.bfarm.de/DE/Home/home_node.html",7.1365454,50.7057961
+"26","Bundesamt für Bevölkerungsschutz und Katastrophenhilfe","BBK","Verwaltung","","http://www.bbk.bund.de/DE/Home/home_node.html",7.0684762,50.7149836
+"27","Bundesamt für Risikobewertung","BfR","Verwaltung","","",13.2971361,52.5309306
+"28","Bundesanstalt für Arbeitsschutz und Arbeitsmedizin","BauA","Verwaltung","","https://www.baua.de/DE/Home/Home_node.html",7.4172529,51.4981037
+"29","Umweltbundesamt","UBA","Verwaltung","","http://www.umweltbundesamt.de/",12.2392723,51.8423204
+"30","Veterinäramt Charlottenburg-Wilmersdorf","","Verwaltung","","https://www.berlin.de/ba-charlottenburg-wilmersdorf/verwaltung/aemter/ordnungsamt/veterinaer-und-lebensmittelaufsicht/",13.3116049,52.4889823
+"31","Institut für angewandte Qualitätsförderung und Forschung im Gesundheitswesen","AQUA","Wissenschaft","","https://www.aqua-institut.de/ueber-uns/",9.931946,51.5400635
+"32","Einstein Stiftung Berlin","","Wissenschaft","","http://www.einsteinfoundation.de/",13.3942386,52.51398
+"33","Berliner Institut für Gesundheitsforschung","","Wissenschaft","","www.bihealth.org",13.4018457,52.5206019
+"34","Deutsches Institut für Ernährungsforschung","","Wissenschaft","","http://www.dife.de/",13.10534,52.34842
+"35","Deutsches Krebsforschungszentrum","DKFZ","Wissenschaft","","https://www.dkfz.de/de/dkfz/struktur/organigramm.html",8.6729607,49.414414
+"36","Deutsches Zentrum für Infektionsforschung","","Wissenschaft","","https://www.virologie.med.tum.de/dzif-deutsches-zentrum-fuer-infektionsforschung/",10.53122,52.21122
+"37","Deutsche Forschungsgemeinschaft","","Wissenschaft","","http://www.dfg.de",7.1477975,50.6993388
+"38","Friedrich-Löffler-Institut","FLI","Wissenschaft","","https://www.fli.de/de/kontakt/",13.36358,54.18286
+"39","Helmholtz Zentrum München","","Wissenschaft","","https://www.helmholtz-muenchen.de/",11.589606,48.222473
+"40","Helmholz-Zentrum für Infektionsforschung","HZI","Wissenschaft","","https://www.helmholtz-hzi.de/de/service/kontakt/?no_cache=1",10.5314925,52.2109803
+"41","Leopoldina","","Wissenschaft","","www.leopoldina.org",11.963382,51.487432
+"42","Max-Planck-Gesellschaft","","Wissenschaft","","https://www.mpg.de/de",6.9193176,50.9252943
+"43","Max-Rubner-Institut","MRI","Wissenschaft","","www.mri.bund.de",8.4262698,49.0135536
+"44","Paul-Ehrlich-Institut (PEI)","PEI","Wissenschaft","","http://www.pei.de/DE/home/de-node.html",8.6499482,50.0054894
+"45","Technisches Hilfswerk","THS","Zivilschutz","","",7.2280345,53.6026072

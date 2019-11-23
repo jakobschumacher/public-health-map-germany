@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.59.1" />
+
+
+<title>Karte von public health Einrichtungen in Deutschland - Public health in Germany</title>
+<meta property="og:title" content="Karte von public health Einrichtungen in Deutschland - Public health in Germany">
+
+
+  <link href='https://jakobschumacher.github.io/public-health-map-germany/favicon.ico' rel='icon' type='image/x-icon'/>
+
+
+
+  
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/public-health-map-germany/css/fonts.css" media="all">
+<link rel="stylesheet" href="/public-health-map-germany/css/main.css" media="all">
+
+
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="/public-health-map-germany/" class="nav-logo">
+    <img src="/public-health-map-germany/images/logo.png"
+         width="50"
+         height="50"
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="/public-health-map-germany/about/">About</a></li>
+    
+    <li><a href="https://github.com/jakobschumacher/public-health-map-germany">GitHub</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">Karte von public health Einrichtungen in Deutschland</h1>
+
+    
+    <span class="article-date">2019-11-03</span>
+    
+
+    <div class="article-content">
+      
+<script src="/public-health-map-germany/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
+<script src="/public-health-map-germany/rmarkdown-libs/jquery/jquery.min.js"></script>
+<link href="/public-health-map-germany/rmarkdown-libs/leaflet/leaflet.css" rel="stylesheet" />
+<script src="/public-health-map-germany/rmarkdown-libs/leaflet/leaflet.js"></script>
+<link href="/public-health-map-germany/rmarkdown-libs/leafletfix/leafletfix.css" rel="stylesheet" />
+<script src="/public-health-map-germany/rmarkdown-libs/Proj4Leaflet/proj4-compressed.js"></script>
+<script src="/public-health-map-germany/rmarkdown-libs/Proj4Leaflet/proj4leaflet.js"></script>
+<link href="/public-health-map-germany/rmarkdown-libs/rstudio_leaflet/rstudio_leaflet.css" rel="stylesheet" />
+<script src="/public-health-map-germany/rmarkdown-libs/leaflet-binding/leaflet.js"></script>
+
+
+<div id="karte" class="section level1">
+<h1>Karte</h1>
+<div id="htmlwidget-1" style="width:672px;height:480px;" class="leaflet html-widget"></div>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"calls":[{"method":"addTiles","args":["//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"http://openstreetmap.org\">OpenStreetMap<\/a> contributors, <a href=\"http://creativecommons.org/licenses/by-sa/2.0/\">CC-BY-SA<\/a>"}]},{"method":"addCircleMarkers","args":[[52.5151264,50.7186261,52.2711024,52.0367238,53.106758,51.26312,52.51256,52.52263,52.5137697,52.5132754,52.5122858,50.7063931,52.1302321,52.3939426,51.2198665,48.7755018,50.0045483,49.2274117,54.3082,53.61451,52.37111,51.05918,50.9564439,50.7528595,50.7057961,50.7149836,52.5309306,51.4981037,51.8423204,52.4889823,51.5400635,52.51398,52.5206019,52.34842,49.414414,52.21122,50.6993388,54.18286,48.222473,52.2109803,51.487432,50.9252943,49.0135536,50.0054894,53.6026072],[13.398788,7.0622326,8.0447914,8.4952413,8.85204,6.82249,13.3842201,13.36342,13.3824188,13.3868576,13.3950971,7.1384983,11.6571059,13.0529571,6.7680157,9.1816065,8.2669058,6.9998753,10.13307,11.41706,9.73451,13.7465699,11.0411823,7.0915838,7.1365454,7.0684762,13.2971361,7.4172529,12.2392723,13.3116049,9.931946,13.3942386,13.4018457,13.10534,8.6729607,10.53122,7.1477975,13.36358,11.589606,10.5314925,11.963382,6.9193176,8.4262698,8.6499482,7.2280345],10,null,null,{"interactive":true,"className":"","stroke":true,"color":"#03F","weight":5,"opacity":0.5,"fill":true,"fillColor":"#03F","fillOpacity":0.2},null,null,["Auswärtiges Amt","Bundesministerium für Gesundheit","Universität Osnabrück","Universität Bielefeld","Universität Bremen","Akademie für öffentliches Gesundheitswesen Düsseldorf","Bundesministerium der Arbeit und Soziales","Bundesministerium des Inneren ","Bundesministerium für Ernährung und Landwirtschaft","Bundesministerium für Familie, Senioren, Frauen und Jugend","Bundesministerium für Justiz und Verbraucherschutz","Bundesministerium für Umwelt, Naturschutz, Bau und Reaktorsicherheit (BMUB)","Ministerium für Arbeit, Soziales und Integration des Landes Sachsen-Anhalt","Ministerium für Arbeit, Soziales, Gesundheit und Frauen des Landes Brandenburg","Ministerium für Gesundheit, Emanzipation, Pflege und Alter des Landes Nordrhein-Westfalen","Ministerium für Soziales und Integration des Landes Baden-Württemberg","Ministerium für Soziales, Arbeit, Gesundheit und Demografie des Landes Rheinland-Pfalz","Ministerium für Soziales, Gesundheit, Frauen und Familie, Saarland","Ministerium für Soziales, Gesundheit, Wissenschaft und Gleichstellung des Landes Schleswig-Holstein","Ministerium für Wirtschaft, Arbeit und Gesundheit des Landes Mecklenburg-Vorpommern","Niedersächsisches Ministerium für Soziales, Gesundheit und Gleichstellung","Sächsisches Staatsministerium für Soziales und Verbraucherschutz","Thüringer Ministerium für Arbeit, Soziales, Gesundheit, Frauen und Familie","Statistisches Bundesamt","Bundesamt für Arzneimittelsicherheit und Medizinprodukte","Bundesamt für Bevölkerungsschutz und Katastrophenhilfe","Bundesamt für Risikobewertung","Bundesanstalt für Arbeitsschutz und Arbeitsmedizin","Umweltbundesamt","Veterinäramt Charlottenburg-Wilmersdorf","Institut für angewandte Qualitätsförderung und Forschung im Gesundheitswesen","Einstein Stiftung Berlin","Berliner Institut für Gesundheitsforschung","Deutsches Institut für Ernährungsforschung","Deutsches Krebsforschungszentrum","Deutsches Zentrum für Infektionsforschung","Deutsche Forschungsgemeinschaft","Friedrich-Löffler-Institut","Helmholtz Zentrum München","Helmholz-Zentrum für Infektionsforschung","Leopoldina","Max-Planck-Gesellschaft","Max-Rubner-Institut","Paul-Ehrlich-Institut (PEI)","Technisches Hilfswerk"],null,null,{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]}],"limits":{"lat":[48.222473,54.3082],"lng":[6.7680157,13.7465699]}},"evals":[],"jsHooks":[]}</script>
+</div>
+
+    </div>
+  </article>
+
+  
+
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="/public-health-map-germany/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="/public-health-map-germany/images/hugo-logo.png" alt="Img link to Hugo website" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+    
+
+    
+<script src="/public-health-map-germany/js/math-code.js"></script>
+<script async src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+
+    
+  </body>
+</html>
+
