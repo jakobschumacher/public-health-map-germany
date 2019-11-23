@@ -15,6 +15,7 @@ library(here)
 library(htmlwidgets)
 library(DT)
 library(leaflet)
+library(widgetframe)
 setwd(here())
 
 # data <- read.csv("Public_Health_Player_Germany - Tabellenblatt1.csv")
@@ -47,5 +48,7 @@ df2 <- read.csv(file = "intermediatedata.csv")
 # Tabelle 
 
 ```{r table, echo=FALSE}
-datatable(df2 %>% select(Name, Typ))
+tabelle <- datatable(df2 %>% select(Name, Typ))
+frameWidget(tabelle)
+
 ```
